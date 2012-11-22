@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Lockscreen version="1" type="goal">
+	<Background bg="theme_lock_wallpaper" />
+
+	<Time relative_centerHorizontal="true" bg="time_bg" paddingTop="90"
+		src="time" textcolor="F592AB" />
+
+	<Msg relative_centerHorizontal="true" relative_below="lockscreen_clock"
+		textcolor="F592AB" textsize="18" />
+
+	<UnlockTips visible="invisible"/>
+
+	<EmeBtn relative_alignParentRight="true" marginLeft="10" src="urgent_bg"
+		textcolor="000000" relative_below="lockscreen_clock" />
+	<Unlocker type="down" src="lock_icon_bg" centerX="160"
+		centerY="320">
+		<Hanlder name="unlocker_dail" align="left">
+			<Src source="lock_dail" />
+			<Intent packageName="com.android.contacts" className="com.android.contacts.DialtactsActivity" />
+		</Hanlder>
+
+		<Hanlder name="unlocker" align="center">
+			<Src source="lock_unlock" />
+		</Hanlder>
+
+		<Hanlder name="unlocker_message" align="right">
+			<Src source="lock_sms" />
+			<Intent type="action" action="android.intent.action.MAIN"
+				datatype="vnd.android-dir/mms-sms" />
+		</Hanlder>
+		
+		<Target name="target_bottom" align="bottom">
+			<Src source="ic_lockscreen_unlock" />
+		</Target>
+	</Unlocker>
+</Lockscreen>
