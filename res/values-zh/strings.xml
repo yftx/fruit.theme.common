@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">公用主题</string>
-    <string name="theme_name">公用主题</string>
+    <string name="app_name">默认</string>
+    <string name="theme_name">默认</string>
 </resources>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Common</string>
-    <string name="theme_name">Common</string>
+    <string name="app_name">Default</string>
+    <string name="theme_name">Default</string>
     <string name="theme_version">1</string>
     <string name="theme_support_version">111</string>
 </resources>
