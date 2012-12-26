@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<array name="theme_preview">
-		<item>preview_lock_wallpaper</item>
-        <item>preview_lockscreen</item>
+<!-- 		<item>preview_lock_wallpaper</item> -->
+<!--         <item>preview_lockscreen</item> -->
         <item>preview_wallpaper</item>
         <item>preview_theme1</item>
-        <item>preview_theme2</item>
+<!--         <item>preview_theme2</item> -->
     </array>
     
     <array name="theme_wallpaper_preview">
@@ -14,7 +14,7 @@
 
     <array name="theme_icon_preview">
         <item>preview_theme1</item>
-        <item>preview_theme2</item>
+<!--         <item>preview_theme2</item> -->
     </array>
     
     <array name="theme_lock_preview">
